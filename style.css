@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(tanlook.png);
+    
+}
+
+.card{
+    font-family: "Poppins" sans-serif;
+    width: 340px;
+    overflow: hidden;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+
+}
+
+.profile-shade img{
+    width: 350%;
+    height: 150px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    object-fit: cover;
+}
+
+.pro-pic img{
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    position: relative;
+    margin-top:-75px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+p{
+    font-size: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 15px;
+    text-align: center;
+}
+
+.item {
+    display: flex;
+    justify-content: space-around;
+}
+
+h2{
+    font-size: 15px;
+    text-align: center;
+}
+
+
